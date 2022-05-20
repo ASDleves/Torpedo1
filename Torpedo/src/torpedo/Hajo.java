@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package torpedo;
 
-/**
- *
- * @author hallgato
- */
 public class Hajo {
+    int pozicio [];
     
+    public String talalat(int poz){
+        return null;
+    };
+         
 }
