@@ -1,21 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package torpedo;
 
-/**
- *
- * @author hallgato
- */
-public class Torpedo {
+import java.util.Random;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Torpedo {
+    public static final int PALYA = 7
     public static void main(String[] args) {
-        // TODO code application logic here
+        torpedo();
+        
     }
+    private static void torpedo(){
+        int[] pozicio = hajoPoz();
+        Hajo hajo = new Hajo(pozicio);
+        int talalatszam = 0;
+        int loveSzam = 0;
+        while();
     
+}
+
+    private static int[] hajoPoz() {
+        int[] tomb = new int[3];
+        Random hely = new Random();
+        int pozicio = hely.nextInt(PALYA);
+        tomb[0] =pozicio;
+        tomb[1] =pozicio+1;
+        tomb[2] =pozicio+2;
+        return tomb;
+    }
 }
