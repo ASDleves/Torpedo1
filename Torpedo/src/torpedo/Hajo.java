@@ -19,10 +19,5 @@ public class Hajo {
        return valasz;
        
    }
- 
-    public Hajo(int[] pozicio) {
-        this.pozicio = new int[3];
-        this.pozicio = pozicio;
-    }
-         
 }
+ 
